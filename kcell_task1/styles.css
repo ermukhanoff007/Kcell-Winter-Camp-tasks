@@ -1,0 +1,50 @@
+.main-container {
+  padding: 30px;
+}
+.container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.input-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+.counter {
+  margin-left: 30px;
+  display: flex;
+  flex-direction: row;
+}
+.todo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.input {
+  padding: 10px;
+}
+.btn-add {
+  color: blue;
+  padding: 10px;
+  border-radius: 10px;
+}
+.task-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border: solid black;
+  width: 300px;
+}
+
+.task-text {
+  padding: 10px;
+}
+.task-text.completed {
+  text-decoration: line-through;
+}
