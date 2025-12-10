@@ -58,7 +58,7 @@ export const MainPage = () => {
           placeholder="Type Name"
           value={text}
           onChange={(e) => setText(e.target.value)}
-          className="w-80 p-3 border border-gray-300 rounded-lg  shadow-sm  placeholder-gray-400 dark: placeholder-white dark:bg-gray-800 dark:text-white"
+          className="w-80 p-3 border border-gray-300 rounded-lg  shadow-sm  placeholder-gray-400 dark:placeholder-white dark:bg-gray-800 dark:text-white"
         />
       </div>
       {isLoading && <p>Loading</p>}
